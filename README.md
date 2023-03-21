@@ -6,6 +6,9 @@ A **survey** is a form with questions specifically designed to gather informatio
  - HTML
  - CSS
  - JavaScript
+ 
+ ## Glance of the form
+![form](https://user-images.githubusercontent.com/108140716/226643239-30c4dcf2-0a1a-4ec0-862d-5d8be35ae704.jpg)
 
 ## Link to live demo
 <a href="https://baishu0105.github.io/Ascent_Academy_SurveyForm/" >Survey form</a>
