@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <h1 id="title">SURVEY FORM</h1>
+    <form>
+        <fieldset>
+            <label id="name-label" for="name" >Name <input id="name" name="name" type="text" placeholder=" Enter your name"required /></label>
+            <label id="email-label" for="email">Email <input id="email" name="email" type="email" placeholder=" Enter your Email"required /></label>
+            <label id="number-label" for="age">Age  <input id="age" type="number" name="age" min="10" max="120" placeholder=" Age" /></label>
+            <label for="radio-1">Gender 
+                <select id="dropdown" name="select">
+                    <option value=""></option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select>
+            </label>
+            <hr>
+            <label for="radio-2">Which option best describes you?
+                <select id="dropdown" name="select">
+                    <option value="">select your option</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer Not to Say</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+            <hr>
+            <label for="radio-3">do you like to code?<br><hr>
+            <label for="Definitely"><input id="Definitely" type="radio" name="radio" value="round-radio" /> Definitely</label><br>
+            <label for="Maybe"><input id="Maybe" type="radio" name="radio" value="round-radio" /> Maybe</label><br>
+            <label for="Not sure"><input id="Not sure" type="radio" name="radio" value="round-radio"/> No</label><br>
+            <hr>
+            <label for="referrer">What is your favorite language in coding?
+                <select id="select" name="select">
+                    <option value="">select an option</option>
+                    <option value="1">JAVA</option>
+                    <option value="2">Python</option>
+                    <option value="3">React</option>
+                    <option value="4">MongoDB</option>
+                </select>
+            </label>
+            <hr>
+            <label for="referrer">Would you like to be a part of coding community?
+                <select id="select" name="select">
+                    <option value="">select an option</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </label>
+            <hr>
+            <label for="terms-and-conditions"> If you do, What would you like for yourself as a part of coding community? <br><hr>
+                <input id="Front-end Projects" type="checkbox" name="checkbox" value="checkbox"/> Front-end Projects<br>
+                <input id="Back-end Projects" type="checkbox" name="checkbox" value="checkbox"/> Back-end Projects<br>
+                <input id="Data Visualization" type="checkbox" name="checkbox" value="checkbox"/> Data Visualization<br>
+                <input id="Open Source Community" type="checkbox" name="checkbox" value="checkbox"/> Open Source Community<br>
+                <input id="Videos" type="checkbox" name="checkbox" value="checkbox"/> Videos<br>
+                <input id="Hackerwar" type="checkbox" name="checkbox" value="checkbox"/> Hackerwar<br>
+                <input id="Wiki" type="checkbox" name="checkbox" value="checkbox"/> Wiki<br>
+                <input id="Additional Courses" type="checkbox" name="checkbox" value="checkbox"/> Additional Courses<br>
+                <input id="Other" type="checkbox" name="checkbox" value="checkbox"/>Other<br>
+            </label>
+            <hr>
+            <label for="bio">Any comments or suggestions?
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder=" Type Your Comment/suggestions Here..."></textarea>
+            </label>
+            <button type="submit" id="sudmitbtn" value="submit"> submit</button>
+        </fieldset>
+        </form>
+    <script src="survey.js"></script>
+  </body>
+</html>
